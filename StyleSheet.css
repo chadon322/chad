@@ -1,0 +1,120 @@
+﻿
+body {
+    background-image: radial-gradient(red 5%, lightgoldenrodyellow 15%, Orange 50%);
+    display: inline;
+}
+
+@font-face {
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight: 400;
+}
+h1 {
+    color: lightgoldenrodyellow;
+    background: red;
+    font-family: "Times New Roman";
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 70%;
+    border: 5px double black;
+    border-radius: 7px;
+    box-shadow: 20px 10px 10px lightgoldenrodyellow;
+    visibility: visible;
+    visibility: initial;
+}
+
+p {
+    font-weight: 100;
+    color: black;
+    opacity: 0.75;
+    font-family: DeliciousRoman, Helvetica, Arial, sans-serif;
+    display: block;
+
+}
+h2 {
+    color: black;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    font-family: "Times New Roman";
+    font-weight: 100;
+    font-size: 25px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: left;
+    width: 70%;
+    text-overflow: "---";
+    border: 5px solid red;
+    padding: 5px;
+    border-image: url("https://mdn.mozillademos.org/files/4127/border.png") /* source */
+    27 / /* slice */
+    36px 28px 18px 8px / /* width */
+    18px 14px 9px 4px /* outset */
+    round; /* repeat */
+    display: inline-block;
+}
+
+img {
+    object-fit: cover;
+    transform: none;
+    filter: brightness(105%);
+    float: none;
+    clear: right,initial;
+}
+h1.hidden {
+    display: none;
+}
+li {
+    color: darkred;
+    font-family: 'Oswald', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    
+    display: block ;
+   
+}
+ul {
+    list-style-position: outside;
+    list-style-type:  lower-greek;
+    text-align: center;
+}
+
+a {
+    color: black;
+    font-family: "Times New Roman";
+    font-weight: 100;
+    font-size: 15px;
+    text-align: left;
+}
+div p {
+    background-color: transparent;
+}
+div > h2 {
+    background-color: red;
+}
+
+
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: #FF00FF;
+}
+p::first-line {
+    color: red;
+    font-variant: small-caps;
+}
+li::before {
+    content: "•"; 
+}
+table {
+    font-weight: 100;
+    color: black;
+    font-family: "Times New Roman";
+}
+
+
